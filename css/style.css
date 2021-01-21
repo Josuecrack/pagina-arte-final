@@ -1,0 +1,276 @@
+/*////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    Themes Bootstrap - Personal Portfolio Template v1.0.0 (https://themesbootstrap.com.mx/templates/bravo-agency-template.html)
+    Copyright 2019 Themes Bootstrap
+    Licensed under MIT (https://github.com/diegovr7/bravo-agency/blob/master/LICENSE)
+
+////////////////////////////////////////////////////////////////////////////////////////////////////*/
+:root {
+    --dark:#1a1a1a;
+    --white: #ffffff;
+    --light-grey: #efefef;
+    --gold: #ecd5a7;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: .05rem;
+    background-color: var(--dark) !important;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+}
+
+a {
+    color: var(--light);
+}
+
+a:hover {
+    color: var(--light);
+    text-decoration: none;
+}
+
+.bg-light {
+    background-color: var(--white) !important;
+}
+
+.bg-light-grey {
+    background-color: var(--light-grey);
+}
+
+.bg-dark {
+    background-color: var(--dark) !important;
+}
+
+.bg-gold {
+    background-color: var(--gold);
+}
+
+.text-dark {
+    color: var(--dark) !important;
+}
+.text-gold {
+    color: var(--gold) !important;
+}
+
+.btn {
+    padding: .5rem 1.8rem;
+    border-radius: .2rem;
+}
+
+.btn-primary {
+    background-color: var(--white) !important;
+    color: var(--dark);
+    border-color: var(--dark);
+}
+
+.btn-primary:hover {
+    background-color: var(--light) !important;
+    color: var(--dark);
+    border-color: var(--dark);
+}
+
+.btn-secondary {
+    background-color: var(--dark);
+}
+
+.btn-gold {
+    background-color: var(--gold);
+    color: var(--dark);
+}
+
+.mt-6{
+    margin-top: 4rem;
+}
+
+.mb-6 {
+    margin-bottom: 4rem;
+}
+
+.navbar {
+    background-color: var(--dark);
+    min-height: 5rem;
+}
+
+.nav-link {
+    font-size: .8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.navbar-toggler {
+    color: var(--white);
+}
+
+.badge {
+    font-weight: 500;
+    padding: .5rem 1.5rem;
+    line-height: 1.5;
+}
+
+section {
+    padding: 6rem 0;
+}
+
+#slider {
+    padding: 5rem 0 0 0;
+}
+
+.blog-info {
+    color: var(--white);
+    bottom: 1rem;
+    left: 1.5rem;
+}
+
+.form-control {
+    padding: 1.5rem 1rem;
+    font-weight: 300;
+    border: 0;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid var(--dark);
+}
+
+@media (max-width: 575.98px) {
+    #slider h3 {
+        font-size: 1.2rem;
+    } 
+    footer {
+        text-align: center;
+    }
+}
+
+/* gosh buttons */
+:root{
+    --pink: #EF3C82;
+    --white: hsl(0, 0%, 100%);
+    --black: black;
+    --red: #E74C3C;
+    --blue: #3498DB;
+    --purple: #9B59B6;
+    --yellow: #FEB506;
+    --green: #62CB31;
+  }
+  
+  *{
+    font-family: 'Montserrat', sans-serif;
+  }
+  body{
+    margin: 0;
+  }
+  .bg-dark{
+    background-color: rgb(48, 51, 59);
+    background-image: -webkit-radial-gradient(center , circle cover, rgb(57, 59, 69) 0%, rgb(45, 48, 56) 70%);
+    min-height: calc(100vh - 30px);
+    margin: 0;
+  }
+  
+  .btn-container{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .btn-item{
+  }
+  
+  
+  .btn-ghost{
+    position: relativate;
+    display: inline-block;
+    border: 2px solid var(--white);
+    padding: 20px 80px;
+    color: var(--black);
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: var(--white);
+    transition: color 0.5s, background 0.5s;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    min-width: 140px;
+    text-align: center;
+  }
+  .margen
+  {
+      margin-left: 220px;
+  }
+  
+  .btn-ghost.round{
+    border-radius: 30px;
+  }
+  
+  .btn-ghost.secundary{
+    background-color: transparent;
+    color: var(--white);
+  }
+  
+  .btn-ghost:hover{
+    color: var(--white);
+    background-color: transparent;
+  }
+  
+  .btn-ghost.secundary:hover{
+    color: var(--black);
+    background-color: var(--white);
+  }
+  
+  .btn-ghost:active{
+    box-shadow: inset 0 0 20px var(--white);
+  }
+  
+  .btn-ghost.secundary:active{
+    box-shadow: inset 0 0 20px var(--black);
+  }
+  
+  .btn-ghost.pink{
+    background-color: var(--white);
+    border-color: var(--white);
+    color: var(--black);
+  }
+  
+  .btn-ghost.secundary.pink{
+    background-color: transparent;
+    color: var(--white);
+  }
+  
+  .btn-ghost.pink:hover{
+    background-color: transparent;
+    color: var(--white);
+  }
+  
+  .btn-ghost.secundary.pink:hover{
+    background-color: var(--pink);
+    color: var(--white);
+  }
+  
+  .btn-ghost.pink:active{
+    box-shadow: inset 0 0 20px var(--pink);
+  }
+  
+  .btn-ghost.secundary.pink:active{
+    box-shadow: inset 0 0 20px var(--white);
+  }
+.coloe
+{
+    color: white;
+    text-align: center;
+    size: 30px;
+
+}
+.position
+{
+  margin-left: 14px;
+}
